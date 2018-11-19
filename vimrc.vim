@@ -59,15 +59,13 @@ let NERDTreeNodeDelimiter = "\t"
 let g:better_whitespace_enabled=1
 
 set tw=80 fo+=t colorcolumn=80
+
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown tw=80 fo+=t colorcolumn=80
+
 au BufNewFile,BufRead *.py
-    \ set tabstop=4
-    \ set softtabstop=4
-    \ set shiftwidth=4
-    \ set textwidth=79
-    \ set expandtab
-    \ set autoindent
-    \ set fileformat=unix
+    \ set tabstop=4 softtabstop=4 shiftwidth=4 |
+    \ set textwidth=79 expandtab autoindent fileformat=unix
+
 au BufNewFile,BufRead *.js, *.html, *.css
     \ set tabstop=2
     \ set softtabstop=2
