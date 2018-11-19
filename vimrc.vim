@@ -59,7 +59,7 @@ au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown tw=80 fo+=t colorcol
 set tw=80 fo+=t colorcolumn=80
 
 let &t_SI = "\<Esc>[6 q"
-let &t_SR = "\<Esc>[4 q"
+" let &t_SR = "\<Esc>[4 q"
 let &t_EI = "\<Esc>[2 q"
 
 " Brief help for Vundle:
