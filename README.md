@@ -6,6 +6,10 @@ Note that if you already have a .vimrc file, this will **overwrite** it.
 
 ## Installation
 
+**Step 0:**
+
+If you're in Windows, install a decent terminal program. I use [this one](http://babun.github.io/).
+
 **Step 1:**
 
 Download repo and tell .vimrc to load config file `vimrc.vim`
