@@ -9,6 +9,7 @@ Plugin 'sheerun/vim-polyglot'
 Plugin 'tomasr/molokai'
 Plugin 'scrooloose/nerdtree'
 Plugin 'drewtempelmeyer/palenight.vim'
+Plugin 'ntpeters/vim-better-whitespace'
 call vundle#end()
 
 filetype plugin indent on
@@ -51,6 +52,8 @@ let g:NERDTreeDirArrowCollapsible="~"
 
 " Fix cutoff in NERDTree names:
 let NERDTreeNodeDelimiter = "\t"
+
+let g:better_whitespace_enabled=1
 
 " Brief help for Vundle:
 " :PluginList       - lists configured plugins
