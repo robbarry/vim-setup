@@ -56,6 +56,7 @@ let NERDTreeNodeDelimiter = "\t"
 let g:better_whitespace_enabled=1
 
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown tw=80 fo+=t colorcolumn=80
+set tw=80 fo+=t colorcolumn=80
 
 " Brief help for Vundle:
 " :PluginList       - lists configured plugins
