@@ -46,6 +46,12 @@ let g:python_highlight_all = 1
 nmap <F3> O<C-R>=strftime("## %c")<CR><ESC>o
 imap <F3> <C-R>=strftime("## %c")<CR>
 
+let g:NERDTreeDirArrowExpandable="+"
+let g:NERDTreeDirArrowCollapsible="~"
+
+" Fix cutoff in NERDTree names:
+let NERDTreeNodeDelimiter = "\t"
+
 " Brief help for Vundle:
 " :PluginList       - lists configured plugins
 " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
