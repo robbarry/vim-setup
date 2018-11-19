@@ -12,7 +12,7 @@ If you're in Windows, install a decent terminal program. I use [this one](http:/
 
 **Step 1:**
 
-Download repo and tell .vimrc to load config file `vimrc.vim`
+Download repo:
 
 `git clone git@github.com:robbarry/vim-setup.git ~/.vim --recursive`
 
