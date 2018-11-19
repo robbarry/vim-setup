@@ -8,6 +8,7 @@ Plugin 'junegunn/fzf.vim'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'tomasr/molokai'
 Plugin 'scrooloose/nerdtree'
+Plugin 'drewtempelmeyer/palenight.vim'
 call vundle#end()
 
 filetype plugin indent on
@@ -25,8 +26,7 @@ set softtabstop=4
 set expandtab
 set background=dark
 syntax on
-colorscheme molokai
-let g:molokai_original = 1
+colorscheme palenight
 
 nmap ; :Buffers<CR>
 
