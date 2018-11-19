@@ -39,6 +39,12 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 let g:python_highlight_all = 1
 
+" nmap <F3> O<C-R>=strftime("## %Y-%m-%d %a %I:%M %p")<CR><Esc>
+" imap <F3> <C-R>=strftime("## %Y-%m-%d %a %I:%M %p")<CR>
+
+nmap <F3> O<C-R>=strftime("## %c")<CR><Esc>
+imap <F3> <C-R>=strftime("## %c")<CR>
+
 " Brief help for Vundle:
 " :PluginList       - lists configured plugins
 " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
