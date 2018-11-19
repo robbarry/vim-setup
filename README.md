@@ -14,10 +14,16 @@ If you're in Windows, install a decent terminal program. I use [this one](http:/
 
 Download repo and tell .vimrc to load config file `vimrc.vim`
 
-```
-git clone git@github.com:robbarry/vim-setup.git ~/.vim --recursive
-echo "source ~/.vim/vimrc.vim" > ~/.vimrc
-``` 
+`git clone git@github.com:robbarry/vim-setup.git ~/.vim --recursive`
+
+**Step 2:**
+
+Tell `.vimrc` where your configuration file is:
+
+`echo "source ~/.vim/vimrc.vim" > ~/.vimrc`
+
+*Optional*: Automatically check for updates on login:
+`echo "git -C ~/.vim pull" >> ~/.bashrc`
 
 **Step 2:**
 
