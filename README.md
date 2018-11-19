@@ -8,6 +8,8 @@ Note that if you already have a .vimrc file, this will **overwrite** it.
 
 **Step 1:**
 
+Download repo and tell .vimrc to load config file `vimrc.vim`
+
 ```
 git clone git@github.com:robbarry/vim-setup.git ~/.vim --recursive
 echo "source ~/.vim/vimrc.vim" > ~/.vimrc
@@ -15,7 +17,9 @@ echo "source ~/.vim/vimrc.vim" > ~/.vimrc
 
 **Step 2:**
 
-Load vim and run `:PluginInstall`
+Automatically install plugins (you can ignore errors by hitting `ENTER`)
+
+`vim -c VundleUpdate -c quitall`
 
 ## Help
 
