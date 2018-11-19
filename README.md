@@ -27,6 +27,11 @@ Tell `.vimrc` where your configuration file is:
 
 **Step 2:**
 
+For Python development, install
+[autopep8](https://pypi.python.org/pypi/autopep8/): `pip install autopep8`
+
+**Step 3:**
+
 Automatically install plugins (you can ignore errors by hitting `ENTER`)
 
 `vim -c VundleUpdate -c quitall`
