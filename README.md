@@ -16,3 +16,7 @@ echo "source ~/.vim/vimrc.vim" > ~/.vimrc
 **Step 2:**
 
 Load vim and run `:PluginInstall`
+
+## Help
+
+Here's a [good overview](https://vim.rtorr.com/) of vim keyboard shortcuts
