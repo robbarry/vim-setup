@@ -12,6 +12,7 @@ Plugin 'drewtempelmeyer/palenight.vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'tell-k/vim-autopep8'
+Plugin 'junegunn/limelight.vim'
 call vundle#end()
 
 filetype plugin indent on
