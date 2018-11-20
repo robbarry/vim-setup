@@ -22,8 +22,11 @@ Tell `.vimrc` where your configuration file is:
 
 `echo "source ~/.vim/vimrc.vim" > ~/.vimrc`
 
-*Optional*: Automatically check for updates on login:
-`echo "git -C ~/.vim pull" >> ~/.bashrc`
+*Optional*
+Automatically check for updates on login: `echo "source ~/.vim/login.sh" >>
+.bashrc`
+
+And logout: `echo "source ~/.vim/logout.sh" >> .bash_logout`
 
 **Step 2:**
 
