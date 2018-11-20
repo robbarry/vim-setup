@@ -1,3 +1,5 @@
+echo "Loading vim logout script"
+
 git -C ~/.vim add .
 git -C ~/.vim commit
 
