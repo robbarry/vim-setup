@@ -28,6 +28,8 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 set encoding=utf-8
+set cm=blowfish2
+set hlsearch
 
 set background=dark
 syntax on
