@@ -79,6 +79,9 @@ let &t_SI = "\<Esc>[6 q"
 " let &t_SR = "\<Esc>[4 q"
 let &t_EI = "\<Esc>[2 q"
 
+let g:limelight_conceal_ctermfg = 'gray'
+let g:limelight_conceal_ctermfg = 240
+
 " Brief help for Vundle:
 " :PluginList       - lists configured plugins
 " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
