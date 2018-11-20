@@ -1,6 +1,7 @@
 # vim-setup
 
-This is Rob's portable vim setup. Presented without warranty, with the strong caveat that I have no idea what I'm doing.
+This is Rob's portable vim setup. Presented without warranty, with the strong
+caveat that I have no idea what I'm doing.
 
 Note that if you already have a .vimrc file, this will **overwrite** it.
 
@@ -8,7 +9,8 @@ Note that if you already have a .vimrc file, this will **overwrite** it.
 
 ### Step 0
 
-If you're in Windows, install a decent terminal program. I use [this one](http://babun.github.io/).
+If you're in Windows, install a decent terminal program. I use [this
+one](http://babun.github.io/).
 
 ### Step 1
 
