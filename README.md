@@ -20,7 +20,19 @@ Download repo:
 $ git clone git@github.com:robbarry/vim-setup.git ~/.vim --recursive
 ```
 
-### Step 2
+### Step 2 (automatic)
+
+Run installation script
+
+```
+sh ~/.vim_runtime/install.sh
+```
+
+And you're done.
+
+Alternatively, you can follow these manual steps:
+
+### Step 2 (manual)
 
 Tell `.vimrc` where your configuration file is:
 
