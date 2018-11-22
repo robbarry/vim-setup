@@ -17,7 +17,7 @@ one](http://babun.github.io/).
 Download repo:
 
 ```
-$ git clone git@github.com:robbarry/vim-setup.git ~/.vim --recursive
+$ git clone git@github.com:robbarry/vim-setup.git ~/.vim_runtime --recursive
 ```
 
 ### Automatic installation
