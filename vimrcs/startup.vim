@@ -4,9 +4,9 @@ filetype off
 set rtp+=~/.vim_runtime/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'junegunn/fzf.vim'
+" Plugin 'junegunn/fzf.vim'
 Plugin 'sheerun/vim-polyglot'
-Plugin 'tomasr/molokai'
+" Plugin 'tomasr/molokai'
 Plugin 'scrooloose/nerdtree'
 Plugin 'drewtempelmeyer/palenight.vim'
 Plugin 'ntpeters/vim-better-whitespace'
@@ -17,7 +17,6 @@ call vundle#end()
 
 filetype plugin indent on
 
-set nocompatible
 set noswapfile
 set hidden
 set number
@@ -32,15 +31,15 @@ set encoding=utf-8
 set cm=blowfish2
 set hlsearch
 
-set background=dark
+" set background=dark
 syntax on
 colorscheme palenight
-
-nmap ; :Buffers<CR>
-
-" To load NERDTree automatically:
-" autocmd vimenter * if !argc() | NERDTree | endif
-
+"
+" nmap ; :Buffers<CR>
+"
+" " To load NERDTree automatically:
+" " autocmd vimenter * if !argc() | NERDTree | endif
+"
 " I prefer this behavior (CTRL + N to toggle NERDTree):
 map <silent> <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
@@ -82,8 +81,14 @@ let &t_EI = "\<Esc>[2 q"
 let g:limelight_conceal_ctermfg = 'gray'
 let g:limelight_conceal_ctermfg = 240
 
-" Brief help for Vundle:
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+" yank to clipboard
+" set clipboard=unnamed " copy to the system clipboard
+set clipboard=unnamedplus
+" set paste
+set go+=a
+
+" " Brief help for Vundle:
+" " :PluginList       - lists configured plugins
+" " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" " :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
