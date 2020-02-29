@@ -87,6 +87,7 @@ set clipboard=unnamedplus
 " set paste
 set go+=a
 
+au VimLeave * !resetcolor
 " " Brief help for Vundle:
 " " :PluginList       - lists configured plugins
 " " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
